@@ -1,0 +1,29 @@
+@media (max-width: 1300px) {
+    .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .tableItem {
+        &:hover {
+            box-shadow: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .id-name-age {
+        flex-direction: column;
+    }
+    .table-preview {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .tableItem {
+        flex-direction: column;
+    }
+}

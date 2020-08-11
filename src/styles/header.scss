@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.id-name-age {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    color: #ffffff;
+}
+
+.btnId {
+    background-color: #ff0000;
+}
+
+.btnName {
+    background-color: #FFA305;
+}
+
+.btnAge {
+    background-color: #FFD455;
+}
+
+.btnSwitchLang {
+    height: 48px;
+    background-color: #F64BFF;
+}
+
+.btnAscDec {
+    background-color: #35FF1E;
+}
+
+.btnTable {
+    background-color: #4BCFFF;
+}
+
+.btnPreview {
+    background-color: #286CFF;
+}
